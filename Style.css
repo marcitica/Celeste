@@ -1,0 +1,219 @@
+/*Estilizacion del body*/
+body {
+    background: #FFF6E0	;
+   
+}
+
+  
+ 
+@font-face {
+    
+    font-family: 'Dancing';
+    src: url('DancingScript-VariableFont_wght.ttf') }
+    @font-face {
+        font-family:'Handlee' ;
+        src: url(Handlee-Regular.ttf);
+    }
+  
+  h1 {
+   font-family:'Dancing';
+   text-align: center;
+   letter-spacing: 3px;
+   font-size: 250%;
+   color:#ebaea4;
+   
+   
+  }
+
+  .imguno{width: 25%;
+  height: 25%;
+  padding-left: 200px;
+}
+
+
+
+
+.ayuda{font-family:'Handlee';
+  color: #FFBCBC;
+font-size:larger;
+text-align: center;
+letter-spacing: 2px;
+}
+
+.ayuda img{ width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  margin-left: 250px ;
+ }
+
+ header {
+    background-color: 	#FFF6E0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color:	#ffdbd5;
+    font-family: "Handlee";
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: 	#e5c3bd;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: 	#e5c3bd;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content li {
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+ .imgdos img{
+  width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  margin-left: 365px ;
+ }
+ h2{
+  text-align: center;
+  color: #ffe4cd;
+ }
+
+ .potra{font-family:'Handlee';
+font-size:larger;
+color: #FFBCBC;
+text-align: center;
+letter-spacing: 2px;
+
+ }
+ .wakala img{
+
+width: 25%;
+height: 25%;
+margin-left: 6%;
+ }
+ .dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color:		#e5c3bd;
+  min-width: 160px;
+  z-index: 1000;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.dropdown-content li {
+  text-align: left;
+}
+
+.dropdown-content li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.dropdown-content li a:hover {
+  background-color:	#e5c3bd;}
+
+.dropdown:hover .dropdown-content {
+  max-height: 500px; /* suficientemente alto para mostrar todo el contenido */
+  opacity: 1;
+}
+/* ↑↑↑ Fin de estilos del menú desplegable ↑↑↑ */
+
+main {
+  padding: 20px;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #374c62;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.volver:hover {
+  background-color: #374c62;
+}
+
+.Ducati{
+  font-family:'Handlee';
+  color: #FFBCBC;
+font-size:larger;
+text-align: center;
+letter-spacing: 2px;
+}
+
+.Kawasaki img{
+
+  width: 25%;
+  height: 25%;
+  margin-left: 6%;
+   }
+   .uwu img{
+
+    width: 25%;
+    height: 25%;
+    margin-left: 15%;
+     }
+     
+     .diablita{
+      font-size: xx-large;
+      
+     }
+    footer{background-color:#FFF6E0;
+  color:#FFBCBC ;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+    }
+    .papa a{
+   display: block;
+    color: #FFBCBC ;
+    padding: 14px 20px;
+    text-decoration: none;}
+
+    .kiwi img{
+
+      width: 25%;
+      height: 25%;
+      padding-top: 4%;
+      margin-left: 37%;
+       }
